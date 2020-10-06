@@ -7,17 +7,47 @@
     </head>
     <body>
         <main>
-            <div class="apperizer">
-                <ol>
-                    <li>** No selection ** $0.00</li>
-                    <li>Deep Fried Calamari $7.50</li>
-                    <li>Soup du Jour $4.99</li>
-                    <li>Garden Salad $3.99</li>
-                    <li>Garlic Bread $4.50</li>
-                </ol>
+            <h1>Group F Bar & Grill</h1>
+            <hr />
+
+            <!-- Appetizer -->
+            <div id="appetizer">
+                <h2>Appetizer</h2>
+                <ol class="appetizer-list"></ol>
                 <p>Please enter your selection #:</p>
-                <input />
+                <input id="appetizer-option" type="text" value="1" />
             </div>
+
+            <!-- Entree -->
+            <div id="Entree">
+                <h2>Entree</h2>
+                <ol class="entree-list"></ol>
+                <p>Please enter your selection #:</p>
+                <input id="entree-option" type="text" value="1" />
+            </div>
+
+            <!-- Dessert -->
+            <div class="Dessert">
+                <h2>Dessert</h2>
+                <ol class="dessert-list"></ol>
+                <p>Please enter your selection #:</p>
+                <input id="dessert-option" type="text" value="1" />
+            </div>
+
+            <!-- Beverage -->
+            <div class="Beverage">
+                <h2>Beverage</h2>
+                <ol class="beverage-list"></ol>
+                <p>Please enter your selection #:</p>
+                <input id="beverage-option" type="text" value="1" />
+            </div>
+
+            <div class="buttons">
+                <button type="button">Complete Order</button>
+                <button type="button">Clear order</button>
+            </div>
+
+            <hr class="menu-end" />
         </main>
     </body>
 </html>
