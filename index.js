@@ -126,7 +126,7 @@ const displayReceipt = () => {
             }
         }
 
-        str += `<li>your total bill comes to: ${totalPrice.toFixed(
+        str += `<li>your total bill comes to: $${totalPrice.toFixed(
             2
         )}</li></ul>`;
     } else {
