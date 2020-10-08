@@ -6,7 +6,7 @@ const appDescription = [
     'Garden Salad',
     'Garlic Bread',
 ];
-const appPrice = [0.0, 7.5, 4.99, 3.99, 4.5];
+const appPrices = [0.0, 7.5, 4.99, 3.99, 4.5];
 
 // Entree
 const entreeDescription = [
@@ -17,12 +17,38 @@ const entreeDescription = [
     'Mediterranean Platter',
     'Vegetarian Lasagna',
 ];
-const entreePrice = [0.0, 15.95, 11.25, 17.95, 13.5, 9.0];
+const entreePrices = [0.0, 15.95, 11.25, 17.95, 13.5, 9.0];
+
+const dessertDescription = [
+    '** No Selection **',
+    'Ice Cream Sundae',
+    'Cheesecake',
+    'Chocolate Truffle Cake',
+    'Raspberry Mousse',
+];
+const dessertPrices = [0, 2.95, 5, 6, 4.5];
+
+const beverageDescription = [
+    '** No Selection **',
+    'Water',
+    'Juice',
+    'Pop',
+    'Milk',
+    'Coffee',
+    'Tea',
+];
+const beveragePrices = [0, 0, 2, 2, 2, 1.75, 1.75];
 
 // SubMenus
 const subMenus = [
-    { name: 'appetizer', description: appDescription, price: appPrice },
-    { name: 'entree', description: entreeDescription, price: entreePrice },
+    { name: 'appetizer', description: appDescription, price: appPrices },
+    { name: 'entree', description: entreeDescription, price: entreePrices },
+    { name: 'dessert', description: dessertDescription, price: dessertPrices },
+    {
+        name: 'beverage',
+        description: beverageDescription,
+        price: beveragePrices,
+    },
 ];
 
 // Insert Sub-menus list function
