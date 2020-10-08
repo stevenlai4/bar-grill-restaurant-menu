@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
         <title>Group F - Lab 7</title>
     </head>
     <body>
@@ -15,7 +16,12 @@
                 <h2>Appetizer</h2>
                 <ol class="appetizer-list"></ol>
                 <p>Please enter your selection #:</p>
-                <input id="appetizer-option" type="text" value="1" />
+                <input
+                    class="input"
+                    id="appetizer-option"
+                    type="text"
+                    value="1"
+                />
             </div>
 
             <!-- Entree -->
@@ -23,7 +29,7 @@
                 <h2>Entree</h2>
                 <ol class="entree-list"></ol>
                 <p>Please enter your selection #:</p>
-                <input id="entree-option" type="text" value="1" />
+                <input class="input" id="entree-option" type="text" value="1" />
             </div>
 
             <!-- Dessert -->
@@ -31,7 +37,12 @@
                 <h2>Dessert</h2>
                 <ol class="dessert-list"></ol>
                 <p>Please enter your selection #:</p>
-                <input id="dessert-option" type="text" value="1" />
+                <input
+                    class="input"
+                    id="dessert-option"
+                    type="text"
+                    value="1"
+                />
             </div>
 
             <!-- Beverage -->
@@ -39,16 +50,23 @@
                 <h2>Beverage</h2>
                 <ol class="beverage-list"></ol>
                 <p>Please enter your selection #:</p>
-                <input id="beverage-option" type="text" value="1" />
+                <input
+                    class="input"
+                    id="beverage-option"
+                    type="text"
+                    value="1"
+                />
             </div>
 
             <!-- Complete & Clear Buttons -->
             <div class="buttons">
                 <button id="complete-btn" type="button">Complete Order</button>
-                <button id="cancel-btn" type="button">Clear order</button>
+                <button id="clear-btn" type="button">Clear order</button>
             </div>
 
-            <hr class="menu-end" />
+            <hr />
+
+            <div class="receipt"></div>
         </main>
 
         <script rel="text/script" src="index.js"></script>
