@@ -1,0 +1,32 @@
+body{
+    background-color:#659DBD ;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+h1 {
+    text-align: center;
+    color: #8D8741;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+h2 {
+    color: #FBEEC1;
+    text-decoration: underline;
+}
+#complete-btn {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #DAAD86;
+    border-radius: 8px;
+}
+#clear-btn {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #DAAD86;
+    border-radius: 8px;
+}
+
+p {
+    font-family: cursive;
+}
+
+
+
