@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+        <link rel="stylesheet" href="styles.css" />
         <title>Group F - Lab 7</title>
     </head>
     <body>
@@ -11,55 +11,66 @@
             <h1>Group F Bar & Grill</h1>
             <hr />
 
-            <!-- Appetizer -->
-            <div id="appetizer">
-                <h2>Appetizer</h2>
-                <ol class="appetizer-list"></ol>
-                <p>Please enter your selection #:</p>
-                <input
-                    class="input"
-                    id="appetizer-option"
-                    type="text"
-                    value="1"
-                />
-            </div>
+            <div class="container">
+                <!-- Appetizer -->
+                <div id="appetizer">
+                    <h2>Appetizer</h2>
+                    <ol class="appetizer-list"></ol>
+                    <p>Please enter your selection #:</p>
+                    <input
+                        class="input"
+                        id="appetizer-option"
+                        type="text"
+                        maxlength="1"
+                        value="1"
+                    />
+                </div>
 
-            <!-- Entree -->
-            <div id="entree">
-                <h2>Entree</h2>
-                <ol class="entree-list"></ol>
-                <p>Please enter your selection #:</p>
-                <input class="input" id="entree-option" type="text" value="1" />
-            </div>
+                <!-- Entree -->
+                <div id="entree">
+                    <h2>Entree</h2>
+                    <ol class="entree-list"></ol>
+                    <p>Please enter your selection #:</p>
+                    <input
+                        class="input"
+                        id="entree-option"
+                        type="text"
+                        maxlength="1"
+                        value="1"
+                    />
+                </div>
 
-            <!-- Dessert -->
-            <div class="dessert">
-                <h2>Dessert</h2>
-                <ol class="dessert-list"></ol>
-                <p>Please enter your selection #:</p>
-                <input
-                    class="input"
-                    id="dessert-option"
-                    type="text"
-                    value="1"
-                />
-            </div>
+                <!-- Dessert -->
+                <div class="dessert">
+                    <h2>Dessert</h2>
+                    <ol class="dessert-list"></ol>
+                    <p>Please enter your selection #:</p>
+                    <input
+                        class="input"
+                        id="dessert-option"
+                        type="text"
+                        maxlength="1"
+                        value="1"
+                    />
+                </div>
 
-            <!-- Beverage -->
-            <div class="beverage">
-                <h2>Beverage</h2>
-                <ol class="beverage-list"></ol>
-                <p>Please enter your selection #:</p>
-                <input
-                    class="input"
-                    id="beverage-option"
-                    type="text"
-                    value="1"
-                />
+                <!-- Beverage -->
+                <div class="beverage">
+                    <h2>Beverage</h2>
+                    <ol class="beverage-list"></ol>
+                    <p>Please enter your selection #:</p>
+                    <input
+                        class="input"
+                        id="beverage-option"
+                        type="text"
+                        maxlength="1"
+                        value="1"
+                    />
+                </div>
             </div>
 
             <!-- Complete & Clear Buttons -->
-            <div class="buttons">
+            <div class="button-group">
                 <button id="complete-btn" type="button">Complete Order</button>
                 <button id="clear-btn" type="button">Clear order</button>
             </div>

@@ -118,7 +118,7 @@ const displayReceipt = () => {
     const { orderedList, totalPrice } = calcTotalPrice();
 
     if (orderedList.length !== 0) {
-        str = '<ul>';
+        str = '<ul><li>Your current order consists of</li>';
 
         for (let i = 0; i < orderedList.length; i++) {
             if (orderedList[i] !== '** No Selection **') {
